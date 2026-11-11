@@ -354,3 +354,20 @@ button { font: inherit; }
   .msec { scroll-margin-top: 140px; }
 }
 @media (max-width: 420px) { .riflesso { grid-template-columns: 1fr; } }
+
+/* ---------- Credito SBL + pop-up ---------- */
+.sbl-open { color: var(--ink); font-weight: 700; text-decoration: underline; text-decoration-color: var(--champ); text-decoration-thickness: 2px; text-underline-offset: 3px; display: inline-block; padding: .55rem 0; }
+.sbl { width: min(100% - 2rem, 460px); max-height: calc(100svh - 2rem); overflow: auto; border: 0; border-radius: 30px; padding: 2.2rem 1.8rem 1.8rem; color: var(--ink); background: var(--paper); box-shadow: 0 40px 100px rgb(0 0 0 / .35); }
+.sbl::backdrop { background: rgb(20 20 18 / .45); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
+.sbl[open] { animation: sblIn .45s var(--ease); }
+@keyframes sblIn { from { opacity: 0; transform: translateY(18px) scale(.97); } }
+.sbl__x { position: absolute; top: .7rem; right: .7rem; width: 44px; height: 44px; border: 0; border-radius: 50%; background: rgb(29 29 27 / .06); color: var(--ink); font-size: 1.6rem; line-height: 1; cursor: pointer; }
+.sbl__hand { color: var(--champ); transform: rotate(-2deg); transform-origin: left; font-size: 1.9rem; }
+.sbl__t { font-weight: 700; font-size: clamp(1.8rem, 1.4rem + 1.6vw, 2.4rem); line-height: 1; letter-spacing: -.035em; margin-top: .4rem; }
+.sbl__p { margin-top: 1rem; color: var(--ink-2); hyphens: manual; -webkit-hyphens: manual; }
+.sbl__list { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: .45rem; }
+.sbl__list li { position: relative; padding-left: 1.4rem; font-weight: 700; font-size: .98rem; }
+.sbl__list li::before { content: ""; position: absolute; left: 0; top: .55em; width: .55rem; height: .55rem; border-radius: 50%; background: var(--bottle); }
+.sbl__cta { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.6rem; }
+.sbl__cta .btn--dark { flex: 1 1 100%; }
+.sbl__cta .btn--line { flex: 1 1 0; padding-inline: 1rem; }

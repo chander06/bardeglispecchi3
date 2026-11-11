@@ -155,3 +155,15 @@ document.documentElement.classList.add('js');
   document.querySelectorAll('[data-msec]').forEach(function (s) { io.observe(s); });
   setActive(Object.keys(chips)[0]);
 })();
+
+/* ---------- Pop-up The SBL Company ---------- */
+(function () {
+  'use strict';
+  var dlg = document.getElementById('sbl');
+  if (!dlg || typeof dlg.showModal !== 'function') return; // senza <dialog> il link apre il sito SBL
+  document.querySelectorAll('[data-sbl-open]').forEach(function (a) {
+    a.addEventListener('click', function (e) { e.preventDefault(); dlg.showModal(); });
+  });
+  dlg.querySelectorAll('[data-sbl-close]').forEach(function (b) { b.addEventListener('click', function () { dlg.close(); }); });
+  dlg.addEventListener('click', function (e) { if (e.target === dlg) dlg.close(); }); // clic fuori dalla card
+})();

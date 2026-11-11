@@ -13,3 +13,4 @@ Indirizzo: https://bardeglispecchi3.yuvraj-chander.workers.dev
 - Nuova pagina /menu con il menu ufficiale del bar: Caffetteria, Dolci, Snack salati, Bibite e bevande, Spritz list, Drink list (con "Riflesso", il drink della casa, in una card a specchio), Digestivi; barra delle categorie che segue lo scroll
 - Link "Menu" nella navigazione, pulsante "Guarda il menu" nell'hero e "Sfoglia il menu completo" nel blocco aperitivo
 - Corretti refusi del testo ricevuto: Maritozzo, Paste secche, Caffè decaffeinato
+- Nel footer "Sito realizzato da The SBL Company" apre un pop-up su SBL con preventivo su WhatsApp, Instagram e sito
