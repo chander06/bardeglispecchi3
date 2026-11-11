@@ -128,3 +128,30 @@ document.documentElement.classList.add('js');
 
   document.querySelectorAll('[data-year]').forEach(function (el) { el.textContent = new Date().getFullYear(); });
 })();
+
+/* ---------- Menu: categoria attiva ---------- */
+(function () {
+  'use strict';
+  var bar = document.querySelector('[data-mtabs] .mtabs__in');
+  if (!bar || !('IntersectionObserver' in window)) return;
+  var chips = {};
+  bar.querySelectorAll('[data-chip]').forEach(function (c) { chips[c.getAttribute('data-chip')] = c; });
+  function setActive(id) {
+    Object.keys(chips).forEach(function (k) {
+      var on = k === id;
+      chips[k].classList.toggle('is-active', on);
+      if (on) {
+        chips[k].setAttribute('aria-current', 'true');
+        var c = chips[k], left = c.offsetLeft - (bar.clientWidth - c.offsetWidth) / 2;
+        bar.scrollTo({ left: Math.max(0, left), behavior: 'smooth' });
+      } else {
+        chips[k].removeAttribute('aria-current');
+      }
+    });
+  }
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) { if (e.isIntersecting) setActive(e.target.id); });
+  }, { rootMargin: '-40% 0px -55% 0px' });
+  document.querySelectorAll('[data-msec]').forEach(function (s) { io.observe(s); });
+  setActive(Object.keys(chips)[0]);
+})();

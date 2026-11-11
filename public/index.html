@@ -24,9 +24,9 @@
   <link rel="manifest" href="/site.webmanifest">
   <link rel="preload" href="/assets/fonts/bricolage-grotesque-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/caveat-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="/assets/css/style.css?v=1">
+  <link rel="stylesheet" href="/assets/css/style.css?v=2">
   <link rel="stylesheet" href="/assets/css/cookie-consent.css?v=1">
-  <script src="/assets/js/main.js?v=1" defer></script>
+  <script src="/assets/js/main.js?v=2" defer></script>
   <script src="/assets/js/cookie-consent.js?v=1" defer></script>
   <script type="application/ld+json">
   {
@@ -39,6 +39,8 @@
     "logo": "https://bardeglispecchi3.yuvraj-chander.workers.dev/assets/img/logo-bar-degli-specchi.svg",
     "telephone": "+39 06 941 7425",
     "foundingDate": "1912",
+    "hasMenu": "https://bardeglispecchi3.yuvraj-chander.workers.dev/menu",
+    "servesCuisine": "Caffetteria, aperitivo, cocktail",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Via Cesare Battisti, 3",
@@ -63,6 +65,7 @@
         <span>Bar degli Specchi</span>
       </a>
       <nav class="nav__links" id="menu" aria-label="Menu principale">
+        <a href="/menu">Menu</a>
         <a href="/#giornata">La giornata</a>
         <a href="/#storia">Storia</a>
         <a href="/#aperitivo">Aperitivo</a>
@@ -84,7 +87,7 @@
           <p class="hand hero__hand" data-in>un nuovo capitolo nel cuore di Frascati</p>
           <div class="hero__cta" data-in>
             <a class="btn btn--dark" href="tel:+39069417425">Chiama il bar</a>
-            <a class="btn btn--line" href="/#giornata">Scopri la giornata ↓</a>
+            <a class="btn btn--line" href="/menu">Guarda il menu</a>
           </div>
         </div>
         <div class="hero__media" data-in>
@@ -230,6 +233,7 @@
           <li data-reveal><span class="menu__n">04</span><span><strong>Tranci di pinsa gourmet</strong> misti</span></li>
         </ol>
         <p class="ape__note" data-reveal>Basta venirlo a provare.</p>
+        <a class="btn btn--cream ape__btn" href="/menu" data-reveal>Sfoglia il menu completo →</a>
       </div>
     </section>
 

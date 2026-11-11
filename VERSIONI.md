@@ -8,3 +8,8 @@ Indirizzo: https://bardeglispecchi3.yuvraj-chander.workers.dev
 - Logo ricreato in SVG; 3 foto dell'aperitivo dal post Instagram
 - Nascosta a Google (noindex) fino alla V1
 - Da completare con il cliente: ragione sociale, P.IVA, REA, email, orari; confermare il telefono 06 941 7425
+
+### Aggiornamento bozza — 2026-11-11
+- Nuova pagina /menu con il menu ufficiale del bar: Caffetteria, Dolci, Snack salati, Bibite e bevande, Spritz list, Drink list (con "Riflesso", il drink della casa, in una card a specchio), Digestivi; barra delle categorie che segue lo scroll
+- Link "Menu" nella navigazione, pulsante "Guarda il menu" nell'hero e "Sfoglia il menu completo" nel blocco aperitivo
+- Corretti refusi del testo ricevuto: Maritozzo, Paste secche, Caffè decaffeinato
