@@ -29,7 +29,7 @@ body { margin: 0; overflow-x: clip; color: var(--ink); font-family: var(--sans);
   background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
   background-size: 34px 34px; }
 img, video, svg, iframe { max-width: 100%; height: auto; display: block; }
-h1, h2, h3, p, a, li { overflow-wrap: break-word; hyphens: auto; }
+h1, h2, h3, p, a, li { overflow-wrap: break-word; hyphens: manual; -webkit-hyphens: manual; }
 h1, h2, h3 { margin: 0; hyphens: manual; -webkit-hyphens: manual; }
 p, figure { margin: 0; }
 a { color: inherit; }
@@ -371,3 +371,11 @@ button { font: inherit; }
 .sbl__cta { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.6rem; }
 .sbl__cta .btn--dark { flex: 1 1 100%; }
 .sbl__cta .btn--line { flex: 1 1 0; padding-inline: 1rem; }
+
+/* Aperitivo stagionale + card testo nelle tiles */
+.ape__p { margin-top: 1.6rem; padding-top: 1.4rem; border-top: 1px solid rgb(243 238 227 / .2); color: rgb(243 238 227 / .85); font-size: clamp(1.05rem, 1rem + .3vw, 1.2rem); max-width: 42ch; }
+.tile--text { display: flex; flex-direction: column; justify-content: space-between; padding: 1.4rem 1.3rem 1.2rem; background: var(--bottle); color: var(--paper); }
+.tile--text::after { display: none; }
+.tile--text .tile__l { position: static; font-size: clamp(1.6rem, 1.2rem + 1.4vw, 2.3rem); letter-spacing: -.03em; line-height: 1; }
+.tile__hand { color: var(--champ-light); transform: rotate(-3deg); transform-origin: left; font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem); }
+@media (hover: hover) { .tile--text:hover { background: var(--bottle-2); } }
