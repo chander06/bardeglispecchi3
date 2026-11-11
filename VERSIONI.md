@@ -1,6 +1,6 @@
 # Versioni — Bar degli Specchi (versione 3, stile Tinello)
 
-Concept: editoriale ispirato a Tinello Bistrot — carta crema con griglia, titoli in grotesk enorme (Bricolage Grotesque) e note scritte a mano (Caveat), verde bottiglia + grafite del logo + champagne; pillola di navigazione flottante; badge rotondo che gira; fascia inclinata con parole-chiave; effetto principale "la giornata del bar": sezione sticky in cui il fondo passa da mattina (crema) a pomeriggio (ambra) a sera (blu notte con stelle), il sole diventa luna e l'orologio d'epoca va dalle 7 alle 22; blocco aperitivo verde; info in card grafite; wordmark gigante nel footer.
+Concept: editoriale ispirato a Tinello Bistrot — carta crema con griglia, titoli in grotesk enorme (Bricolage Grotesque) e note scritte a mano (Caveat), verde bottiglia + grafite del logo + champagne; pillola di navigazione flottante; badge rotondo che gira; fascia inclinata con parole-chiave; effetto principale "la giornata del bar": sezione sticky in cui il fondo passa da mattina (crema) a pomeriggio (ambra) a sera (blu notte con stelle), il sole diventa luna e l'orologio d'epoca va dalle 6 alle 22; blocco aperitivo verde; info in card grafite; wordmark gigante nel footer.
 Indirizzo: https://bardeglispecchi3.yuvraj-chander.workers.dev
 
 ## Bozza (v0-bozza) — 2026-11-11
@@ -17,3 +17,4 @@ Indirizzo: https://bardeglispecchi3.yuvraj-chander.workers.dev
 - Aperitivo: tolto l'elenco numerato dei piatti (le proposte sono stagionali) e sostituito con un testo sulle proposte di stagione; tolta la foto del tagliere da tutto il sito (hero, card, anteprima social); terza card "Il menu completo"; niente più parole spezzate col trattino
 - Logo ufficiale in alta risoluzione vettorizzato (sprite SVG /assets/img/logo-sprite.svg): navigazione, badge, fascia, mappa, card Riflesso, scritta gigante del footer, favicon, icona iPhone e anteprima social
 - Dati ufficiali: ragione sociale Caffetteria degli Specchi, P.IVA 18745331001, email bdeglispecchi@gmail.com (footer, contatti, privacy policy, dati strutturati)
+- Orari: tutti i giorni 6:00–22:00 (info, footer, dati strutturati); orologio della giornata ora va dalle 6 alle 22

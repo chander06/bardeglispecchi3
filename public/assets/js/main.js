@@ -65,8 +65,8 @@ document.documentElement.classList.add('js');
     var a = Math.PI * (1 - p);
     s.setProperty('--ox', (50 + Math.cos(a) * 42).toFixed(2) + '%');
     s.setProperty('--oy', (78 - Math.sin(a) * 62).toFixed(2) + '%');
-    // Orologio: dalle 7:00 alle 22:00
-    var hours = 7 + p * 15;
+    // Orologio: dalle 6:00 alle 22:00 (orari del bar)
+    var hours = 6 + p * 16;
     if (hH) hH.style.transform = 'rotate(' + (hours * 30).toFixed(2) + 'deg)';
     if (hM) hM.style.transform = 'rotate(' + ((hours % 1) * 360 + Math.floor(hours) * 360).toFixed(2) + 'deg)';
     // Pannelli: uno per momento della giornata
