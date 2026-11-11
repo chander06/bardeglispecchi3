@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+
+Sitemap: https://bardeglispecchi3.yuvraj-chander.workers.dev/sitemap.xml
