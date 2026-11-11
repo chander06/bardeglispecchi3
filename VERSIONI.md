@@ -15,3 +15,4 @@ Indirizzo: https://bardeglispecchi3.yuvraj-chander.workers.dev
 - Corretti refusi del testo ricevuto: Maritozzo, Paste secche, Caffè decaffeinato
 - Nel footer "Sito realizzato da The SBL Company" apre un pop-up su SBL con preventivo su WhatsApp, Instagram e sito
 - Aperitivo: tolto l'elenco numerato dei piatti (le proposte sono stagionali) e sostituito con un testo sulle proposte di stagione; tolta la foto del tagliere da tutto il sito (hero, card, anteprima social); terza card "Il menu completo"; niente più parole spezzate col trattino
+- Logo ufficiale in alta risoluzione vettorizzato (sprite SVG /assets/img/logo-sprite.svg): navigazione, badge, fascia, mappa, card Riflesso, scritta gigante del footer, favicon, icona iPhone e anteprima social

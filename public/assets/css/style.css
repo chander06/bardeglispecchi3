@@ -379,3 +379,8 @@ button { font: inherit; }
 .tile--text .tile__l { position: static; font-size: clamp(1.6rem, 1.2rem + 1.4vw, 2.3rem); letter-spacing: -.03em; line-height: 1; }
 .tile__hand { color: var(--champ-light); transform: rotate(-3deg); transform-origin: left; font-size: clamp(1.5rem, 1.2rem + 1vw, 2rem); }
 @media (hover: hover) { .tile--text:hover { background: var(--bottle-2); } }
+
+/* Logo ufficiale (sprite SVG) */
+.mark, .foot__big svg { fill: currentColor; }
+.nav__mark { width: 22px; }
+.badge__mark { width: 32%; }
