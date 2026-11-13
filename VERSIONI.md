@@ -18,3 +18,4 @@ Indirizzo: https://bardeglispecchi3.yuvraj-chander.workers.dev
 - Logo ufficiale in alta risoluzione vettorizzato (sprite SVG /assets/img/logo-sprite.svg): navigazione, badge, fascia, mappa, card Riflesso, scritta gigante del footer, favicon, icona iPhone e anteprima social
 - Dati ufficiali: ragione sociale Caffetteria degli Specchi, P.IVA 18745331001, email bdeglispecchi@gmail.com (footer, contatti, privacy policy, dati strutturati)
 - Orari: tutti i giorni 6:00–22:00 (info, footer, dati strutturati); orologio della giornata ora va dalle 6 alle 22
+- Tolta la voce REA (ditta individuale): nessun segnaposto rimasto
